@@ -2476,6 +2476,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "BooksIndex",
@@ -2487,7 +2491,6 @@ __webpack_require__.r(__webpack_exports__);
 
     axios.get('/api/books').then(function (response) {
       _this.books = response.data.data;
-      console.log(_this.books);
       _this.loading = false;
     })["catch"](function (error) {
       _this.loading = false;
@@ -39675,7 +39678,7 @@ var render = function() {
                   _c(
                     "div",
                     [
-                      _vm._v("No Books yet. "),
+                      _vm._v("No Books yet.\n                "),
                       _c("router-link", { attrs: { to: "/books/create" } }, [
                         _vm._v("Get Started >")
                       ])
@@ -39708,7 +39711,14 @@ var render = function() {
                           _vm._v(_vm._s(book.data.title))
                         ]),
                         _vm._v(" "),
-                        _c("p", [_vm._v(_vm._s(book.data.description))])
+                        _c("p", [_vm._v(_vm._s(book.data.description))]),
+                        _vm._v(" "),
+                        _c("p", { staticClass: "text-sm pt-1" }, [
+                          _vm._v("published at "),
+                          _c("span", { staticClass: "text-blue-700 " }, [
+                            _vm._v(_vm._s(book.data.published_at))
+                          ])
+                        ])
                       ])
                     ]
                   )
