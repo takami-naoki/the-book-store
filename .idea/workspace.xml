@@ -11,6 +11,13 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
@@ -128,8 +135,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/js/views" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/js/views" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -145,7 +157,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619898304650</updated>
-      <workItem from="1619898305699" duration="895000" />
+      <workItem from="1619898305699" duration="38112000" />
     </task>
     <servers />
   </component>
@@ -153,13 +165,40 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="469" y="23" width="502" height="806" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1619900274826">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620005696357">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.808/1440.23.1920.1057@0.23.1440.808" timestamp="1620005696356" />
+    <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.808@0.23.1440.808" timestamp="1619998707066" />
+    <state x="469" y="23" width="502" height="806" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1620018940899">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
     <state x="469" y="23" width="502" height="806" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.806/1440.23.1920.1057@0.23.1440.806" timestamp="1619900274826" />
-    <state x="385" y="153" width="670" height="676" key="search.everywhere.popup" timestamp="1619900260080">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state x="469" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.808/1440.23.1920.1057@0.23.1440.808" timestamp="1620018940899" />
+    <state x="458" y="186" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1620027627668">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="385" y="153" width="670" height="676" key="search.everywhere.popup/0.23.1440.806/1440.23.1920.1057@0.23.1440.806" timestamp="1619900260080" />
+    <state x="458" y="186" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1440.808/1440.23.1920.1057@0.23.1440.808" timestamp="1620027627668" />
+    <state x="221" y="65" key="SettingsEditor" timestamp="1619998119617">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="221" y="65" key="SettingsEditor/0.23.1440.806/1440.23.1920.1057@0.23.1440.806" timestamp="1619922553514" />
+    <state x="221" y="65" key="SettingsEditor/0.23.1440.808@0.23.1440.808" timestamp="1619998119617" />
+    <state x="418" y="181" width="604" height="548" key="find.popup" timestamp="1620027483598">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="418" y="181" width="604" height="490" key="find.popup/0.23.1440.806/1440.23.1920.1057@0.23.1440.806" timestamp="1619901078467" />
+    <state x="418" y="181" width="604" height="548" key="find.popup/0.23.1440.808/1440.23.1920.1057@0.23.1440.808" timestamp="1620027483598" />
+    <state x="385" y="192" key="run.anything.popup" timestamp="1620020046708">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="385" y="192" key="run.anything.popup/0.23.1440.808/1440.23.1920.1057@0.23.1440.808" timestamp="1620020046708" />
+    <state x="385" y="192" key="run.anything.popup/0.23.1440.808@0.23.1440.808" timestamp="1619991325255" />
+    <state x="385" y="153" width="670" height="678" key="search.everywhere.popup" timestamp="1620027802210">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="385" y="153" width="670" height="676" key="search.everywhere.popup/0.23.1440.806/1440.23.1920.1057@0.23.1440.806" timestamp="1619924442558" />
+    <state x="385" y="153" width="670" height="678" key="search.everywhere.popup/0.23.1440.808/1440.23.1920.1057@0.23.1440.808" timestamp="1620027802210" />
+    <state x="385" y="153" width="670" height="678" key="search.everywhere.popup/0.23.1440.808@0.23.1440.808" timestamp="1619996443969" />
   </component>
 </project>
